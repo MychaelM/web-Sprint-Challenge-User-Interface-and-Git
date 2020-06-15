@@ -180,12 +180,25 @@ text-decoration: none;
 .about-middle {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .middle-section {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    width: 45%;
+}
+
+.middle-section button {
+    background-color: white;
+    font-size: 0.9rem;
+    margin: 20px 0;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 100px;
 }
 
 .bottom-content {
