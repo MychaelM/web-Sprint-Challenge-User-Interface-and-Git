@@ -67,14 +67,15 @@ p {
 }
 
 header {
-    margin: 20px 20px;
+    margin: 0;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    margin-bottom: 20px;
+    margin: 20px 20px 40px 0;
+    font-size: .9rem;
 }
 
 nav a {
@@ -226,6 +227,11 @@ text-decoration: none;
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.last-about-container {
+    border: none;
+    margin-bottom: 40px;
 }
 
 footer {
