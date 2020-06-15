@@ -186,19 +186,32 @@ text-decoration: none;
 .middle-section {
     display: flex;
     flex-direction: column;
+    margin: 0 20px;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
-    width: 45%;
+    width: 360px;
+}
+
+.middle-section img {
+    margin-bottom: 20px;
+}
+
+.middle-section h2 {
+    margin-bottom: 20px;
+}
+
+.middle-section p {
+    margin-bottom: 20px;
 }
 
 .middle-section button {
     background-color: white;
     font-size: 0.9rem;
-    margin: 20px 0;
+    margin-bottom: 20px;
     padding: 10px;
     border: 2px solid black;
     border-radius: 10px;
-    width: 100px;
+    width: 125px;
 }
 
 .bottom-content {
