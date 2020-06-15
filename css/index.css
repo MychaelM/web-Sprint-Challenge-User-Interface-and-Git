@@ -78,9 +78,24 @@ nav {
     font-size: .9rem;
 }
 
+@keyframes links {
+    from{background-color: white;
+        color: black;}
+    to{background-color: black;
+        color: white;}
+}
+
 nav a {
 color: black;
+padding: 10px;
 text-decoration: none;
+}
+
+nav a:hover {
+    animation-name: links;
+    animation-duration: .7s;
+    background-color: black;
+    color: white;
 }
 
 .jumbo-banner {
