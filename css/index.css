@@ -66,6 +66,42 @@ p {
     line-height: 1.4;
 }
 
+header {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 20px 20px 40px 0;
+    font-size: .9rem;
+}
+
+@keyframes links {
+    from{background-color: white;
+        color: black;}
+    to{background-color: black;
+        color: white;}
+}
+
+nav a {
+color: black;
+padding: 10px;
+text-decoration: none;
+}
+
+nav a:hover {
+    animation-name: links;
+    animation-duration: .7s;
+    background-color: black;
+    color: white;
+}
+
+.jumbo-banner {
+    margin-bottom: 20px;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -83,6 +119,20 @@ p {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+.about-container {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.about-container h2 {
+    margin-left: 20px;
+}
+
+.about-container p {
+    margin: 0 20px;
+    margin-bottom: 20px;
 }
 
 .middle-content {
@@ -112,6 +162,74 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box1 {
+    background-color: teal;
+}
+.middle-content .boxes .box2 {
+    background-color: gold;
+}
+.middle-content .boxes .box3 {
+    background-color: cadetblue;
+}
+.middle-content .boxes .box4 {
+    background-color: coral;
+}
+.middle-content .boxes .box5 {
+    background-color: crimson;
+}
+.middle-content .boxes .box6 {
+    background-color: forestgreen;
+}
+.middle-content .boxes .box7 {
+    background-color: darkorchid;
+}
+.middle-content .boxes .box8 {
+    background-color: hotpink;
+}
+.middle-content .boxes .box9 {
+    background-color: indigo;
+}
+.middle-content .boxes .box10 {
+    background-color: dodgerblue;
+}
+
+.about-middle {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.middle-section {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    width: 360px;
+}
+
+.middle-section img {
+    margin-bottom: 20px;
+}
+
+.middle-section h2 {
+    margin-bottom: 20px;
+}
+
+.middle-section p {
+    margin-bottom: 20px;
+}
+
+.middle-section button {
+    background-color: white;
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 125px;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -124,6 +242,11 @@ p {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.last-about-container {
+    border: none;
+    margin-bottom: 40px;
 }
 
 footer {
